@@ -10,7 +10,7 @@ const server={
 }
 
 const SocketContext = createContext(null);
-const socket = io( "http://localhost:8000" )
+const socket = io( "https://meetroom-backend.onrender.com" )
 
 export const useContextProvider=()=>{
   return useContext(SocketContext)
